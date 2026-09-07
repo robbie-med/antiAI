@@ -8,6 +8,7 @@
 CY 2027 Physician Fee Schedule. Every source inline.">
 <style>
 :root{
+  --measure:48rem; --size:1.15rem;
   --paper:#fdfdfb; --ink:#16161a; --muted:#5c5c66; --rule:#d6d4cd;
   --rule-hard:#16161a; --link:#1a3fa0; --flag:#8a2b1f; --panel:#f4f2ec;
 }
@@ -21,24 +22,15 @@ CY 2027 Physician Fee Schedule. Every source inline.">
 html{-webkit-text-size-adjust:100%}
 body{
   margin:0; background:var(--paper); color:var(--ink);
-  font:1.0625rem/1.62 Charter,"Bitstream Charter",Georgia,"Times New Roman",serif;
+  font:var(--size)/1.6 Charter,"Bitstream Charter",Georgia,"Times New Roman",serif;
 }
-.wrap{max-width:38rem; margin:0 auto; padding:0 1.25rem 6rem}
+/* Column width and body size are the two knobs worth touching. Keep them in
+   proportion: --measure 48rem at --size 1.15rem reads about 80 characters. */
+.wrap{max-width:var(--measure); margin:0 auto; padding:0 1.5rem 6rem}
 
 /* masthead */
 header{border-bottom:2px solid var(--rule-hard); margin-bottom:2.5rem; padding:3rem 0 1rem}
-.kicker{
-  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-  font-size:.7rem; letter-spacing:.14em; text-transform:uppercase;
-  color:var(--muted); margin:0 0 1.5rem
-}
-h1{font-size:2.35rem; line-height:1.1; margin:0 0 .75rem; font-weight:600; letter-spacing:-.01em}
-.standfirst{margin:0 0 1.25rem; color:var(--muted); font-size:1rem}
-.byline{
-  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-  font-size:.72rem; letter-spacing:.06em; color:var(--muted);
-  margin:0; text-transform:uppercase
-}
+h1{font-size:2.35rem; line-height:1.1; margin:0; font-weight:600; letter-spacing:-.01em}
 
 /* the tool bar */
 .tools{
@@ -64,6 +56,15 @@ h2{
   letter-spacing:.16em; text-transform:uppercase; color:var(--ink);
   margin:3.25rem 0 1.1rem; padding-top:.9rem; border-top:1px solid var(--rule); font-weight:600
 }
+/* section plates */
+.plate{
+  display:flex; align-items:center; justify-content:center;
+  height:11rem; margin:3.5rem 0 1.6rem
+}
+.plate:first-child{margin-top:0}
+.plate img{width:128px; height:128px; display:block}
+/* the plate is the section break, so the heading drops its rule */
+.plate + h2{margin-top:1.2rem; padding-top:0; border-top:0}
 p{margin:0 0 1.15rem}
 strong{font-weight:600}
 a{color:var(--link)}
@@ -150,13 +151,7 @@ footer{
 <div class="wrap">
 
 <header>
-  <p class="kicker">antiAI.robbiemed.org</p>
   <h1>It&rsquo;s 2005 All Over Again</h1>
-  <p class="standfirst">Ambient AI scribes were sold as burnout relief. The money says
-  they are a revenue-cycle product, and the payers have already started answering.
-  Every claim below carries its source.</p>
-  <p class="byline">30 sources &middot; 17 archived on this
-  server &middot; verified against primary documents</p>
 </header>
 
 <div class="tools">
@@ -166,18 +161,17 @@ footer{
 </div>
 
 <article>
-<h1>It's 2005 All Over Again</h1>
-<p>Nobody under forty remembers what we were trying to escape.</p>
+<div class="plate" style="background:#8e8b83"><img src="assets/icons/01-folder.png" width="128" height="128" alt=""></div><p>Nobody under forty remembers what we were trying to escape.</p>
 <p>The chart was a manila folder in a wall of manila folders, and if it was not in the wall it was in a stack on somebody's desk, and if it was not there it was gone. You saw a patient without her chart because her chart was at the specialist's office, or in medical records, or in a box in a storage unit off the highway. You wrote your note by hand and the consultant could not read it. You called the hospital at two in the morning for a potassium and waited on hold while somebody walked to a different floor. A woman came in on four medications and could name two of them, and there was no way on earth to find the other two before Monday. Somebody's allergy was written on a card that fell out of the folder in 1997.</p>
 <p>People died in those gaps. Not dramatically. They died of the second dose nobody knew about, of the lab that was drawn and never seen, of the sixty-year-old who told three doctors the same story because none of the three could read what the other two had written.</p>
 <p>We wanted out. Anyone who tells you the paper era was better is remembering a chart rack they never had to search at four in the morning.</p>
 <p>So when someone said the record could be everywhere at once, legible, searchable, safe, nobody had to sell us. We were already begging.</p>
-<h2>The promise</h2>
+<div class="plate" style="background:#6b7f99"><img src="assets/icons/02-document.png" width="128" height="128" alt=""></div><h2>The promise</h2>
 <p>September 2005. RAND published the number: effective implementation and networking of electronic medical records could eventually save more than $81 billion a year, with health and safety benefits on top.<span class="marks"><button class="mark" data-ref="1" aria-expanded="false" aria-controls="r1" title="Show source 1">1</button></span></p>
 <p>The second paragraph of the press release is the one almost nobody read. RAND said there was not yet enough published evidence to reach conclusions about the relative costs and benefits of health IT, and that this was why the team built computer simulation models to fill the gap.<span class="marks"><button class="mark" data-ref="2" aria-expanded="false" aria-controls="r2" title="Show source 2">2</button></span></p>
 <p>They said the evidence did not exist. Then they modeled what it might have said. Then the model became policy.</p>
 <p>The objection wasn't missing, either. It ran in the same issue of the same journal. Himmelstein and Woolhandler called it hope and hype.<span class="marks"><button class="mark" data-ref="3" aria-expanded="false" aria-controls="r3" title="Show source 3">3</button></span> Goodman's title was the whole argument in eight words: savings in electronic medical record systems, do it for the quality.<span class="marks"><button class="mark" data-ref="4" aria-expanded="false" aria-controls="r4" title="Show source 4">4</button></span> Both were sitting on the desk of every policymaker in America, and neither one mattered.</p>
-<h2>The staircase</h2>
+<div class="plate" style="background:#7f7a92"><img src="assets/icons/03-up.png" width="128" height="128" alt=""></div><h2>The staircase</h2>
 <p><strong>One: they paid us.</strong> HITECH passed inside the 2009 stimulus.<span class="marks"><button class="mark" data-ref="5" aria-expanded="false" aria-controls="r5" title="Show source 5">5</button></span> Not a mandate. A check. Medicare eligible professionals could receive up to $44,000; the Medicaid track went to $63,750.<span class="marks"><button class="mark" data-ref="6" aria-expanded="false" aria-controls="r6" title="Show source 6">6</button></span> Nobody was forced onto a computer. We were paid to want one.</p>
 <p><strong>Two: the money shrank if you waited.</strong> Under Medicare, the maximum fell with the start year — $44,000 for anyone starting in 2011 or 2012, down to $24,000 for a 2014 start.<span class="marks"><button class="mark" data-ref="6" aria-expanded="false" aria-controls="r6" title="Show source 6">6</button></span> Medicaid kept the full $63,750 to its 2016 deadline.</p>
 <p><strong>Three: the same law, sign reversed.</strong> Section 1848(a)(7) of the Social Security Act sets the fee schedule for a physician who is not a meaningful EHR user at 99 percent for 2015, 98 percent for 2016, and 97 percent for 2017 and 2018, with authority to cut another point a year if fewer than three quarters of us complied.<span class="marks"><button class="mark" data-ref="7" aria-expanded="false" aria-controls="r7" title="Show source 7">7</button></span> Six years from "here is $44,000" to "we are keeping three percent."</p>
@@ -188,20 +182,20 @@ footer{
 <p><strong>Six, which nobody voted for.</strong> In 2017 Anna Konopka, 84 years old, gave up her New Hampshire license after 46 years in solo practice. Around 300 patients, $50 a visit, no computer, out of the insurance system entirely. Part of the state's case was that her lack of computer skills prevented her from using the mandatory electronic drug monitoring program, and a judge threw out her suit to get the license back that November.<span class="marks"><button class="mark" data-ref="11" aria-expanded="false" aria-controls="r11" title="Show source 11">11</button></span></p>
 <p>Her case was not clean, and anyone who looks her up will find that out in about ninety seconds. The complaints started with a seven-year-old asthma patient and dosing left to the parents, four more followed, and she was prescribing opioids for chronic pain with her prescribing among the allegations.<span class="marks"><button class="mark" data-ref="11" aria-expanded="false" aria-controls="r11" title="Show source 11">11</button></span> She's a bad martyr and I'm not going to make her one.</p>
 <p>What survives all of that is narrower. By 2017 an electronic system had become load-bearing for licensure, and part of the state's position was that a physician who cannot use the database cannot lawfully practice, because at that point the database is the practice. Twelve years from a voluntary check to that.</p>
-<h2>The bill</h2>
+<div class="plate" style="background:#9a6f5c"><img src="assets/icons/04-clock.png" width="128" height="128" alt=""></div><h2>The bill</h2>
 <p>You know this part. Fifty-seven physicians, 430 observed hours: 27 percent of the office day in direct clinical face time, 49.2 percent on the EHR and desk work, one to two more hours of data entry at night.<span class="marks"><button class="mark" data-ref="12" aria-expanded="false" aria-controls="r12" title="Show source 12">12</button></span> Even inside the exam room, 37 percent of the time went to the screen.<span class="marks"><button class="mark" data-ref="12" aria-expanded="false" aria-controls="r12" title="Show source 12">12</button></span> The follow-on study was called "Tethered to the EHR."<span class="marks"><button class="mark" data-ref="13" aria-expanded="false" aria-controls="r13" title="Show source 13">13</button></span></p>
 <p>RAND's own people published the reversal in 2013: mixed evidence on efficiency and safety, and $800 billion in additional annual national health expenditure since the projection.<span class="marks"><button class="mark" data-ref="14" aria-expanded="false" aria-controls="r14" title="Show source 14">14</button></span></p>
 <p>By 2019 a three-month joint investigation put it plainly. Ten years, $36 billion, adoption from 9 percent of hospitals to 96 percent, an industry making $13 billion a year, physicians handcuffed to software they mostly cannot stand.<span class="marks"><button class="mark" data-ref="15" aria-expanded="false" aria-controls="r15" title="Show source 15">15</button></span></p>
 <p>And it never shrank, because it was never going to. Epic's revenue went from $1.2 billion in 2012 to $5.7 billion in 2024 to $6.7 billion in 2025, with acute care hospital market share climbing from 31 percent in 2021 to 43.7 percent in 2025 and 56.9 percent of all beds. Oracle paid $28.3 billion for Cerner. Epic now holds records on more than 325 million patients, and its Cosmos platform contains deidentified data from 1.7 trillion medical events.<span class="marks"><button class="mark" data-ref="16" aria-expanded="false" aria-controls="r16" title="Show source 16">16</button></span></p>
 <p>When we say the EMR failed, we mean it failed us.</p>
-<h2>5:40</h2>
+<div class="plate" style="background:#6f8a72"><img src="assets/icons/05-home.png" width="128" height="128" alt=""></div><h2>5:40</h2>
 <p>I still want out.</p>
 <p>Not out of the record. Out of the nights. Out of the hour after my kid goes to bed. Out of typing while a woman tells me the thing she drove forty minutes to say. I didn't train for eleven years to be the fastest data entry clerk in the county, and every one of us knows the visit where the note ate the medicine.</p>
 <p>Then somebody put a phone on the desk and the note wrote itself in ninety seconds, and it was a good note, and I went home at 5:40.</p>
 <p>The independent evaluations back the part that matters most: ambient scribes do reduce cognitive load and burnout.<span class="marks"><button class="mark" data-ref="17" aria-expanded="false" aria-controls="r17" title="Show source 17">17</button></span> This is the first tool in twenty years that gives time back to the patient instead of taking it. You look at her face. You catch the thing she almost said. The screen goes dark and the room is a room again. If the EHR pulled us out of the encounter, this pushes us back into it, and it does that without asking the patient to accept a worse doctor. I don't know of a better argument any health technology has made in my working life.</p>
 <p>Two caveats belong here rather than in a footnote where nobody will find them. The burnout studies are mostly of clinicians who volunteered for the thing, which is the weakest population you can study. And these systems sometimes write down things that were never said.<span class="marks"><button class="mark" data-ref="29" aria-expanded="false" aria-controls="r29" title="Show source 29">29</button></span> Even the one randomized trial so far was modest — of two scribes, one cut note time by 9.5 percent and the other didn't reach significance, and the physicians still caught errors. When I say the note was good, I mean it read well.</p>
 <p>It's 2005 all over again.</p>
-<h2>The check that has to clear</h2>
+<div class="plate" style="background:#8a7a4f"><img src="assets/icons/06-warning.png" width="128" height="128" alt=""></div><h2>The check that has to clear</h2>
 <p>By July 2025, ambient scribe companies had announced close to a billion dollars in funding in that year alone.<span class="marks"><button class="mark" data-ref="18" aria-expanded="false" aria-controls="r18" title="Show source 18">18</button></span> Abridge raised $250 million in February at a reported $2.75 billion valuation; Ambience closed a mega-round that July.<span class="marks"><button class="mark" data-ref="18" aria-expanded="false" aria-controls="r18" title="Show source 18">18</button><button class="mark" data-ref="19" aria-expanded="false" aria-controls="r19" title="Show source 19">19</button></span></p>
 <p>Nobody raises a billion dollars to save me an hour a night. That money comes back out somewhere, and you don't have to guess where, because they wrote it down.</p>
 <p>A policy brief in <em>npj Digital Medicine</em>, December 2025, documents the pivot. Ambience's July funding announcement described the platform as the leading ambient AI system for documentation, coding, and clinical documentation integrity, highlighting how it drives revenue-cycle performance. The authors call this a clear pivot from earlier messaging about saving doctors time, and note that the product is now positioned as both a burnout remedy and a revenue engine, which raises the question of who ultimately benefits.<span class="marks"><button class="mark" data-ref="19" aria-expanded="false" aria-controls="r19" title="Show source 19">19</button></span></p>
@@ -216,7 +210,7 @@ footer{
 <p>And the counterparty has already moved. Starting 01OCT2025, Cigna began automatically reducing many level 4 and 5 E/M claims by one level unless the documentation clearly supports the higher complexity, and Aetna Better Health has applied similar reviews.<span class="marks"><button class="mark" data-ref="19" aria-expanded="false" aria-controls="r19" title="Show source 19">19</button></span> The JAMA commentary reaches for the same phrase the npj authors did, independently, calling it a possible coding arms race.<span class="marks"><button class="mark" data-ref="22" aria-expanded="false" aria-controls="r22" title="Show source 22">22</button></span> Medicare Advantage already has coding intensity adjustments for exactly this reason, built after in-home assessments and chart reviews were shown to raise risk scores.<span class="marks"><button class="mark" data-ref="19" aria-expanded="false" aria-controls="r19" title="Show source 19">19</button></span></p>
 <p>So the coding money is a step change, not a growth curve, and it gets competed away and audited away. The npj authors say as much: commoditization and payer countermeasures will erode those advantages in time, and late adopters may miss the temporary upside while practicing under a lower baseline set after everyone else's gains have been priced in.<span class="marks"><button class="mark" data-ref="19" aria-expanded="false" aria-controls="r19" title="Show source 19">19</button></span></p>
 <p>A billion dollars in one year is not underwritten by an effect worth two or three thousand dollars a physician that gets clawed back by 2028. Read what the same brief says the winners will profit from: subscription revenue and accumulated data assets.<span class="marks"><button class="mark" data-ref="19" aria-expanded="false" aria-controls="r19" title="Show source 19">19</button></span></p>
-<h2>Who pays the difference</h2>
+<div class="plate" style="background:#9c6f72"><img src="assets/icons/07-users.png" width="128" height="128" alt=""></div><h2>Who pays the difference</h2>
 <p>The day Holmgren appeared, <em>JAMA Health Forum</em> ran a companion piece on what happens when the money doesn't add up. Nong and Neprash note that the ubiquity of billing tools inside today's scribe offerings suggests these products may actually increase health care spending, that many vendors purport to enable higher-intensity billing through more complete documentation, and that some advertise the ability to maximize the number and severity of diagnoses recorded, yielding higher risk-adjusted payments.<span class="marks"><button class="mark" data-ref="27" aria-expanded="false" aria-controls="r27" title="Show source 27">27</button></span></p>
 <p>Then Neprash says the part I'd want every resident to read twice:</p>
 <blockquote>
@@ -226,7 +220,7 @@ footer{
 <p>You gave up the recording to get your evening back, and the subscription that bought the evening is the reason your schedule gets tighter.</p>
 <p>She names the other party who pays, too. Erosion of patient trust, as surprise bills make care less affordable, for instance if scribes convert preventive visits into problem-based visits, which the patient may not learn about until the bill arrives.<span class="marks"><button class="mark" data-ref="27" aria-expanded="false" aria-controls="r27" title="Show source 27">27</button></span> The tool hears the part of the wellness visit where she mentions her knee. The visit reclassifies. She gets charged for a conversation she thought was free. Nobody committed fraud; the documentation just got more complete.</p>
 <p>Her own summary is that the horse is already out of the barn, that what policymakers need is evidence about what happens to spending after adoption and whether the increases represent high-value care or upcoding or something in between, and that payers have tools to fight upcoding but those tools are politically unpopular among clinicians, and the alternative is passing the increases through to consumers and taxpayers.<span class="marks"><button class="mark" data-ref="27" aria-expanded="false" aria-controls="r27" title="Show source 27">27</button></span></p>
-<h2>It's 2005 all over again</h2>
+<div class="plate" style="background:#5f7078"><img src="assets/icons/08-audio.png" width="128" height="128" alt=""></div><h2>It's 2005 all over again</h2>
 <p>Not robots. Nobody loses a job. No black-box uprising, no algorithm firing anyone. The mechanism is duller than that, and it's already in the receipts above.</p>
 <p>The tool creates an artifact that did not exist before.</p>
 <p>A human scribe hears and forgets. A recording is a durable object, and its deletion is a promise, and a promise is a configuration value somebody can change on a Tuesday without a breach and without anyone behaving badly. Retention windows are contract terms. Contract terms get renegotiated at renewal.</p>
@@ -235,7 +229,7 @@ footer{
 <p>Which brings me to the thing I actually wanted to say, and I've taken eight hundred words to get here.</p>
 <p>The conversation was never protected by principle. It was protected by the fact that nobody had a copy.</p>
 <p>That's the entire history of medical measurement. We measure what leaves a trace. Promoting Interoperability is a quarter of your MIPS score today, not because anyone decided that interoperability is the essence of doctoring, but because the EHR produced a countable trace, and the appetite for scoring physicians is older than any of us. Measurement stopped at the note because the note was where the trace stopped.</p>
-<h2>Where this goes</h2>
+<div class="plate" style="background:#7a6a86"><img src="assets/icons/09-next.png" width="128" height="128" alt=""></div><h2>Where this goes</h2>
 <p>The machinery for nudging is old. Health systems have used EHR best practice advisories for years to prompt clinicians to add diagnoses for risk adjustment.<span class="marks"><button class="mark" data-ref="19" aria-expanded="false" aria-controls="r19" title="Show source 19">19</button></span> The only new thing is that the prompt can be based on what you said out loud instead of what you typed.</p>
 <p>The payment plumbing is being laid now. The AMA's Digital Medicine Payment Advisory Group is advising on coding and payment pathways for AI, including ambient scribes, and how their cost should be classified within the practice expense component of the RVU.<span class="marks"><button class="mark" data-ref="19" aria-expanded="false" aria-controls="r19" title="Show source 19">19</button></span></p>
 <p>And the federal rung is forming in public. CMS's Health Tech Ecosystem pledge is voluntary and has drawn more than 600 organizations.<span class="marks"><button class="mark" data-ref="23" aria-expanded="false" aria-controls="r23" title="Show source 23">23</button></span> Industry has told CMS what it needs next, which is that CMS will need to invest in and include in their upcoming fee schedules incentives that motivate provider behavior, provider utilization being the critical last mile.<span class="marks"><button class="mark" data-ref="24" aria-expanded="false" aria-controls="r24" title="Show source 24">24</button></span></p>
@@ -272,6 +266,8 @@ footer{
   verification against primary documents is in
   <a href="sources/VERIFICATION.md">sources/VERIFICATION.md</a>.</p>
   <p>Source and build scripts: <a href="https://github.com/robbie-med/antiAI">github.com/robbie-med/antiAI</a></p>
+  <p>Section icons from the nuoveXT2 theme by Alexandre Moore,
+  <a href="assets/icons/LGPL-3.txt">LGPL-3+</a>.</p>
 </footer>
 
 </div>

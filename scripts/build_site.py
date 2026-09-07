@@ -151,6 +151,33 @@ def receipt_html(r, copies):
     return "".join(parts)
 
 
+# One plate per section: a nuoveXT2 desktop icon centred on a solid field.
+# Keyed by section heading; the empty key is the untitled opening.
+# Icons are nuoveXT2 by Alexandre Moore, LGPL-3+ — see assets/icons/.
+PLATES = {
+    "": ("#8e8b83", "01-folder.png"),
+    "The promise": ("#6b7f99", "02-document.png"),
+    "The staircase": ("#7f7a92", "03-up.png"),
+    "The bill": ("#9a6f5c", "04-clock.png"),
+    "5:40": ("#6f8a72", "05-home.png"),
+    "The check that has to clear": ("#8a7a4f", "06-warning.png"),
+    "Who pays the difference": ("#9c6f72", "07-users.png"),
+    "It's 2005 all over again": ("#5f7078", "08-audio.png"),
+    "Where this goes": ("#7a6a86", "09-next.png"),
+}
+
+
+def plate_html(heading):
+    if heading not in PLATES:
+        return ""
+    colour, icon = PLATES[heading]
+    return (
+        f'<div class="plate" style="background:{colour}">'
+        f'<img src="assets/icons/{icon}" width="128" height="128" alt="">'
+        "</div>"
+    )
+
+
 def markers(sup_inner):
     """<sup>[18](#fn18),[19](#fn19)</sup> -> one button per reference."""
     nums = [int(x) for x in re.findall(r"\[(\d+)\]\(#fn\d+\)", sup_inner)]
@@ -168,6 +195,8 @@ def build_body(md_text):
     """Essay markdown -> HTML. The Notes section is dropped; it lives inline now."""
     body = md_text.split("### Notes")[0]
     body = re.sub(r"\n---\s*$", "", body.rstrip())
+    # The masthead already carries the title; drop the essay's own H1.
+    body = re.sub(r"\A#\s+.*?\n", "", body, count=1)
 
     # Protect footnote markers from the markdown pass.
     slots = []
@@ -184,11 +213,29 @@ def build_body(md_text):
 
     for i, s in enumerate(slots):
         out = out.replace(f"\x00MARK{i}\x00", s)
+
+    # A plate before every section heading, and one opening the essay.
+    def put_plate(m):
+        heading = re.sub(r"<[^>]+>", "", m.group(1)).strip()
+        heading = html.unescape(heading)
+        return plate_html(heading) + m.group(0)
+
+    out = re.sub(r"<h2[^>]*>(.*?)</h2>", put_plate, out, flags=re.S)
+    out = plate_html("") + out
+
+    unplated = [
+        re.sub(r"<[^>]+>", "", h).strip()
+        for h in re.findall(r"<h2[^>]*>(.*?)</h2>", out, flags=re.S)
+    ]
+    for h in unplated:
+        if html.unescape(h) not in PLATES:
+            print(f"  WARNING: no plate defined for section {h!r}")
     return out
 
 
 CSS = """
 :root{
+  --measure:48rem; --size:1.15rem;
   --paper:#fdfdfb; --ink:#16161a; --muted:#5c5c66; --rule:#d6d4cd;
   --rule-hard:#16161a; --link:#1a3fa0; --flag:#8a2b1f; --panel:#f4f2ec;
 }
@@ -202,24 +249,15 @@ CSS = """
 html{-webkit-text-size-adjust:100%}
 body{
   margin:0; background:var(--paper); color:var(--ink);
-  font:1.0625rem/1.62 Charter,"Bitstream Charter",Georgia,"Times New Roman",serif;
+  font:var(--size)/1.6 Charter,"Bitstream Charter",Georgia,"Times New Roman",serif;
 }
-.wrap{max-width:38rem; margin:0 auto; padding:0 1.25rem 6rem}
+/* Column width and body size are the two knobs worth touching. Keep them in
+   proportion: --measure 48rem at --size 1.15rem reads about 80 characters. */
+.wrap{max-width:var(--measure); margin:0 auto; padding:0 1.5rem 6rem}
 
 /* masthead */
 header{border-bottom:2px solid var(--rule-hard); margin-bottom:2.5rem; padding:3rem 0 1rem}
-.kicker{
-  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-  font-size:.7rem; letter-spacing:.14em; text-transform:uppercase;
-  color:var(--muted); margin:0 0 1.5rem
-}
-h1{font-size:2.35rem; line-height:1.1; margin:0 0 .75rem; font-weight:600; letter-spacing:-.01em}
-.standfirst{margin:0 0 1.25rem; color:var(--muted); font-size:1rem}
-.byline{
-  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-  font-size:.72rem; letter-spacing:.06em; color:var(--muted);
-  margin:0; text-transform:uppercase
-}
+h1{font-size:2.35rem; line-height:1.1; margin:0; font-weight:600; letter-spacing:-.01em}
 
 /* the tool bar */
 .tools{
@@ -245,6 +283,15 @@ h2{
   letter-spacing:.16em; text-transform:uppercase; color:var(--ink);
   margin:3.25rem 0 1.1rem; padding-top:.9rem; border-top:1px solid var(--rule); font-weight:600
 }
+/* section plates */
+.plate{
+  display:flex; align-items:center; justify-content:center;
+  height:11rem; margin:3.5rem 0 1.6rem
+}
+.plate:first-child{margin-top:0}
+.plate img{width:128px; height:128px; display:block}
+/* the plate is the section break, so the heading drops its rule */
+.plate + h2{margin-top:1.2rem; padding-top:0; border-top:0}
 p{margin:0 0 1.15rem}
 strong{font-weight:600}
 a{color:var(--link)}
@@ -399,13 +446,7 @@ CY 2027 Physician Fee Schedule. Every source inline.">
 <div class="wrap">
 
 <header>
-  <p class="kicker">antiAI.robbiemed.org</p>
   <h1>It&rsquo;s 2005 All Over Again</h1>
-  <p class="standfirst">Ambient AI scribes were sold as burnout relief. The money says
-  they are a revenue-cycle product, and the payers have already started answering.
-  Every claim below carries its source.</p>
-  <p class="byline">{len(receipts)} sources &middot; {n_archived} archived on this
-  server &middot; verified against primary documents</p>
 </header>
 
 <div class="tools">
@@ -431,6 +472,8 @@ CY 2027 Physician Fee Schedule. Every source inline.">
   verification against primary documents is in
   <a href="sources/VERIFICATION.md">sources/VERIFICATION.md</a>.</p>
   <p>Source and build scripts: <a href="https://github.com/robbie-med/antiAI">github.com/robbie-med/antiAI</a></p>
+  <p>Section icons from the nuoveXT2 theme by Alexandre Moore,
+  <a href="assets/icons/LGPL-3.txt">LGPL-3+</a>.</p>
 </footer>
 
 </div>
