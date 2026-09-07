@@ -1,146 +1,137 @@
 # It's 2005 All Over Again
 
-Nobody under forty really remembers what we were trying to escape.
+Nobody under forty remembers what we were trying to escape.
 
 The chart was a manila folder in a wall of manila folders, and if it was not in the wall it was in a stack on somebody's desk, and if it was not there it was gone. You saw a patient without her chart because her chart was at the specialist's office, or in medical records, or in a box in a storage unit off the highway. You wrote your note by hand and the consultant could not read it. You called the hospital at two in the morning for a potassium and waited on hold while somebody walked to a different floor. A woman came in on four medications and could name two of them, and there was no way on earth to find the other two before Monday. Somebody's allergy was written on a card that fell out of the folder in 1997.
 
-People died in those gaps. Not dramatically. They died of a second dose nobody knew about, of a lab that was drawn and never seen, of an opioid overdose because you couldn’t see the other 5 scripts they’d filled across town.
+People died in those gaps. Not dramatically. They died of a second dose nobody knew about, of a lab that was drawn and never seen, of an opioid overdose because you couldn't see the five other scripts they'd filled across town.
 
-We wanted an escape. 
+We wanted an escape.
 
-And when someone said the record could be everywhere all at once, and legible, and searchable, _and_ safe, nobody had to sell us. We were already begging.
+So when someone said the record could be everywhere at once, and legible, and searchable, *and* safe, nobody had to sell us. We were already begging.
 
 ## The promise
 
-September 2005. RAND published the number: effective implementation and networking of electronic medical records could eventually save more than $81 billion a year, with health and safety benefits on top.<sup>[1](#fn1)</sup>
+That's me, September 2005. Same month that RAND published a number: effective implementation and networking of electronic medical records could eventually save more than $81 billion a year, with health and safety benefits on top.<sup>[1](#fn1)</sup>
 
-The second paragraph of the press release is the one almost nobody read. RAND said there was not yet enough published evidence to reach conclusions about the relative costs and benefits of health IT, and that this was why the team built computer simulation models to fill the gap.<sup>[2](#fn2)</sup>
+The second paragraph of the press release was boring: RAND said there was not yet enough published evidence to reach conclusions about the relative costs and benefits of health IT, and that this was why the team had built computer simulation models to fill the gap.<sup>[2](#fn2)</sup>
 
-They said the evidence did not exist. Then they modeled what it might have said. Then the model became policy.
+And of course, that model became policy.
 
-The objection wasn't missing, either. It ran in the same issue of the same journal. Himmelstein and Woolhandler called it hope and hype.<sup>[3](#fn3)</sup> Goodman's title was the whole argument in eight words: savings in electronic medical record systems, do it for the quality.<sup>[4](#fn4)</sup> Both were sitting on the desk of every policymaker in America, and neither one mattered.
+The objection wasn't entirely missing. Actually, it was in the same issue of the same journal. Himmelstein and Woolhandler called it hope and hype.<sup>[3](#fn3)</sup> Goodman's title was the whole argument in eight words: savings in electronic medical record systems, do it for the quality.<sup>[4](#fn4)</sup> 
+The staircase
+**One: they paid us.** HITECH passed inside the 2009 stimulus.<sup>[5](#fn5)</sup> Not a mandate. A check. Everyone loves a good government check. Medicare eligible professionals could receive up to $44,000; the Medicaid track went to $63,750.<sup>[6](#fn6)</sup> Why force folks onto a computer when you can pay them to want one?
 
-## The staircase
+**Two: oh btw the money shrank if you waited.** Under Medicare, the maximum fell with the start year: $44,000 for anyone starting in 2011 or 2012, down to $24,000 for a 2014 start.<sup>[6](#fn6)</sup> Medicaid kept the full $63,750 to its 2016 deadline.
 
-**One: they paid us.** HITECH passed inside the 2009 stimulus.<sup>[5](#fn5)</sup> Not a mandate. A check. Medicare eligible professionals could receive up to $44,000; the Medicaid track went to $63,750.<sup>[6](#fn6)</sup> Nobody was forced onto a computer. We were paid to want one.
+**Three: same law, opposite sign.** Section 1848(a)(7) of the Social Security Act sets the fee schedule for a physician who is not a meaningful EHR user at 99 percent for 2015, 98 percent for 2016, and 97 percent for 2017 and 2018, and retains the authority to cut another point per year if fewer than three quarters of us comply.<sup>[7](#fn7)</sup> Six years from "here is $44,000" to "we are keeping three percent."
 
-**Two: the money shrank if you waited.** Under Medicare, the maximum fell with the start year — $44,000 for anyone starting in 2011 or 2012, down to $24,000 for a 2014 start.<sup>[6](#fn6)</sup> Medicaid kept the full $63,750 to its 2016 deadline.
+Nothing new was passed as the penalty and the incentive were written into the same 2009 statute. We'd only read the first half (if we'd read anything).
 
-**Three: the same law, sign reversed.** Section 1848(a)(7) of the Social Security Act sets the fee schedule for a physician who is not a meaningful EHR user at 99 percent for 2015, 98 percent for 2016, and 97 percent for 2017 and 2018, with authority to cut another point a year if fewer than three quarters of us complied.<sup>[7](#fn7)</sup> Six years from "here is $44,000" to "we are keeping three percent."
+There's also a hardship exception in that section, and I find it the saddest thing in the whole law. The example Congress gives is a physician in a rural area without sufficient internet access. They anticipated the doctor who could not comply and made a loophole. It seems that it never occurred to them, that a doctor might not want to.<sup>[7](#fn7)</sup>
 
-Nobody had to pass anything new. The penalty and the incentive were written into the same 2009 statute. We read the first half.
+**Four: the record becomes a score.** MACRA, 2015.<sup>[8](#fn8)</sup> Meaningful Use wasn't repealed, it was absorbed and renamed "Promoting Interoperability" (because who *doesn't* want to be a good team player?), and by the AMA's own accounting it is now 25 percent of your MIPS score, requiring certified technology, seven measures across five objectives, with vendors charging you every time their product gets upgraded to meet the next set of measures.<sup>[9](#fn9)</sup>
 
-There's a hardship exception in that section, and I find it the saddest thing in the whole law. The example Congress gives is a physician in a rural area without sufficient internet access. They anticipated the doctor who could not comply. It never occurred to them that a doctor might not want to.<sup>[7](#fn7)</sup>
+**Five: the stakes.** By the 2022 performance year the adjustment was plus or minus 9 percent, and a required reporter who simply declined took the full minus nine.<sup>[10](#fn10)</sup> Budget neutrality makes it lopsided: the penalty is certain and the bonus is a residual funded out of other people's penalties.
 
-**Four: the record becomes the score.** MACRA, 2015.<sup>[8](#fn8)</sup> Meaningful Use wasn't repealed, it was absorbed and renamed Promoting Interoperability, and by the AMA's own accounting it is now 25 percent of your MIPS score, requiring certified technology, seven measures across five objectives, with vendors charging you every time the product gets upgraded to meet the next set of measures.<sup>[9](#fn9)</sup>
+**Six, which again nobody voted for.** In 2017, in my neck of the woods, Dr. Konopka, 84 years old, gave up her New Hampshire license after 46 years in solo practice. Around 300 patients, $50 a visit, no computer, out of the insurance system entirely. Part of the state's case was that her lack of computer skills prevented her from using the mandatory electronic drug monitoring program.<sup>[11](#fn11)</sup>
 
-**Five: the stakes.** By the 2022 performance year the adjustment was plus or minus 9 percent, and a required reporter who simply declined took the full minus nine.<sup>[10](#fn10)</sup> Budget neutrality makes it lopsided. The penalty is certain and the bonus is a residual funded out of other people's penalties.
+Her case was not clean, and anyone who looks her up will find that out in about ninety seconds. The complaints started with a seven-year-old asthma patient and dosing left to the parents, four more followed, and she was prescribing opioids for chronic pain with her prescribing among the allegations.<sup>[11](#fn11)</sup> She doesn't make a good martyr, but she doesn't need to, because the medicine wasn't the point.
 
-**Six, which nobody voted for.** In 2017 Anna Konopka, 84 years old, gave up her New Hampshire license after 46 years in solo practice. Around 300 patients, $50 a visit, no computer, out of the insurance system entirely. Part of the state's case was that her lack of computer skills prevented her from using the mandatory electronic drug monitoring program, and a judge threw out her suit to get the license back that November.<sup>[11](#fn11)</sup>
-
-Her case was not clean, and anyone who looks her up will find that out in about ninety seconds. The complaints started with a seven-year-old asthma patient and dosing left to the parents, four more followed, and she was prescribing opioids for chronic pain with her prescribing among the allegations.<sup>[11](#fn11)</sup> She's a bad martyr and I'm not going to make her one.
-
-What survives all of that is narrower. By 2017 an electronic system had become load-bearing for licensure, and part of the state's position was that a physician who cannot use the database cannot lawfully practice, because at that point the database is the practice. Twelve years from a voluntary check to that.
+The state went out of its way to make the point that a physician who cannot use a database cannot lawfully practice.
 
 ## The bill
 
-You know this part. Fifty-seven physicians, 430 observed hours: 27 percent of the office day in direct clinical face time, 49.2 percent on the EHR and desk work, one to two more hours of data entry at night.<sup>[12](#fn12)</sup> Even inside the exam room, 37 percent of the time went to the screen.<sup>[12](#fn12)</sup> The follow-on study was called "Tethered to the EHR."<sup>[13](#fn13)</sup>
+You live this part but it's good to see the numbers. Fifty-seven physicians, 430 observed hours: 27 percent of the office day in direct clinical face time, 49.2 percent on the EHR and desk work, one to two more hours of data entry at night.<sup>[12](#fn12)</sup> Even inside the exam room, 37 percent of the time went to the screen.<sup>[12](#fn12)</sup> The follow-on study was called "Tethered to the EHR."<sup>[13](#fn13)</sup>
 
-RAND's own people published the reversal in 2013: mixed evidence on efficiency and safety, and $800 billion in additional annual national health expenditure since the projection.<sup>[14](#fn14)</sup>
+RAND (remember them?) published their "oops" in 2013: mixed evidence on efficiency and safety, and $800 billion in additional annual national health expenditure since the 2005 projection. Yikes!<sup>[14](#fn14)</sup>
 
-By 2019 a three-month joint investigation put it plainly. Ten years, $36 billion, adoption from 9 percent of hospitals to 96 percent, an industry making $13 billion a year, physicians handcuffed to software they mostly cannot stand.<sup>[15](#fn15)</sup>
+By 2019 a three-month joint investigation had more numbers: Ten years, $36 billion, adoption from 9 percent of hospitals to 96 percent, an industry making $13 billion a year, physicians handcuffed to software they mostly cannot stand.<sup>[15](#fn15)</sup>
 
-And it never shrank, because it was never going to. Epic's revenue went from $1.2 billion in 2012 to $5.7 billion in 2024 to $6.7 billion in 2025, with acute care hospital market share climbing from 31 percent in 2021 to 43.7 percent in 2025 and 56.9 percent of all beds. Oracle paid $28.3 billion for Cerner. Epic now holds records on more than 325 million patients, and its Cosmos platform contains deidentified data from 1.7 trillion medical events.<sup>[16](#fn16)</sup>
+If you're naiive enough to ask why we didn't stop, the short answer is "follow the money". The long answer is that Epic's revenue went from $1.2 billion in 2012 to $5.7 billion in 2024 to $6.7 billion in 2025, with acute care hospital market share climbing from 31 percent in 2021 to 43.7 percent in 2025 and 56.9 percent of all beds. Closer to home, Oracle paid $28.3 billion for Cerner. Epic now holds records on more than 325 million patients, and its Cosmos platform contains deidentified data from 1.7 trillion medical events.<sup>[16](#fn16)</sup>
 
-When we say the EMR failed, we mean it failed us.
+So when we say the EMR failed, we mean that it failed us and our patients. It seems to have otherwise succeded.
 
 ## 5:40
 
-I still want out.
+I still want an escape.
 
-Not out of the record. Out of the nights. Out of the hour after my kid goes to bed. Out of typing while a woman tells me the thing she drove forty minutes to say. I didn't train for eleven years to be the fastest data entry clerk in the county, and every one of us knows the visit where the note ate the medicine.
+Not out of the record, but out of the grip of the EMR at night. Out of the hour with my face in a screen typing sleep hygiene instructions. Out of slamming my forefingers into the keys as a woman tells me how she bleeds out each month. I didn't train for eleven years to be the fastest data entry clerk in the county, and every one of us has had a visit where the note ate the medicine.
 
-Then somebody put a phone on the desk and the note wrote itself in ninety seconds, and it was a good note, and I went home at 5:40.
+Then Lo, somebody put a phone on the desk and the note wrote itself in sixty-two seconds, and it was a good note, and I went home at 5:40 PM and made love with a free mind.
 
-The independent evaluations back the part that matters most: ambient scribes do reduce cognitive load and burnout.<sup>[17](#fn17)</sup> This is the first tool in twenty years that gives time back to the patient instead of taking it. You look at her face. You catch the thing she almost said. The screen goes dark and the room is a room again. If the EHR pulled us out of the encounter, this pushes us back into it, and it does that without asking the patient to accept a worse doctor. I don't know of a better argument any health technology has made in my working life.
+Ambient scribes do reduce cognitive load and burnout.<sup>[17](#fn17)</sup> This is the first tool in twenty years that gives time back to the patient instead of taking it. I look at his face. I catch the thing he almost said. The screen goes dark and the room is a room again. If the EHR pulled us out of the encounter, ambient AI pushes us back into it, and it does that without asking the patient to accept a worse doctor. I don't know of a better argument any health technology has made in my working life.
 
-Two caveats belong here rather than in a footnote where nobody will find them. The burnout studies are mostly of clinicians who volunteered for the thing, which is the weakest population you can study. And these systems sometimes write down things that were never said.<sup>[29](#fn29)</sup> Even the one randomized trial so far was modest — of two scribes, one cut note time by 9.5 percent and the other didn't reach significance, and the physicians still caught errors. When I say the note was good, I mean it read well.
-
-It's 2005 all over again.
+For sure, the burnout studies are mostly of clinicians who volunteered for the thing, and these systems sometimes write things that were never said.<sup>[29](#fn29)</sup> The one randomized trial so far has showed that of two scribes, one cut note time by 9.5 percent and the other didn't reach significance, and the physicians still caught errors. As far as I know, nobody has studied the effect AI verboseness has on note readers. When I said the note was good, I didn't mean that it couldn't be better.
 
 ## The check that has to clear
 
-By July 2025, ambient scribe companies had announced close to a billion dollars in funding in that year alone.<sup>[18](#fn18)</sup> Abridge raised $250 million in February at a reported $2.75 billion valuation; Ambience closed a mega-round that July.<sup>[18](#fn18),[19](#fn19)</sup>
+By July of last year (2025), ambient scribe companies had announced close to a billion dollars in funding in that year alone.<sup>[18](#fn18)</sup> Abridge raised $250 million in February at a reported $2.75 billion valuation; Ambience closed a mega-round in July.<sup>[18](#fn18),[19](#fn19)</sup>
 
-Nobody raises a billion dollars to save me an hour a night. That money comes back out somewhere, and you don't have to guess where, because they wrote it down.
+Nobody raises a billion dollars to save you and me an hour a night. That money comes back out somewhere. Fortunately, someone wrote down where.
 
-A policy brief in *npj Digital Medicine*, December 2025, documents the pivot. Ambience's July funding announcement described the platform as the leading ambient AI system for documentation, coding, and clinical documentation integrity, highlighting how it drives revenue-cycle performance. The authors call this a clear pivot from earlier messaging about saving doctors time, and note that the product is now positioned as both a burnout remedy and a revenue engine, which raises the question of who ultimately benefits.<sup>[19](#fn19)</sup>
+Ambience's July funding announcement described the platform as the leading ambient AI system for documentation, coding, and clinical documentation integrity, highlighting how it drives revenue-cycle performance. The authors of a policy brief in *npj Digital Medicine*, December 2025, call this a clear pivot from earlier messaging about saving doctors time, and note that the product is now positioned as both a burnout remedy and a revenue engine, which raises the question of who ultimately benefits.<sup>[19](#fn19)</sup> Note that nobody's even thought of the patient.
 
-They also explain why the pivot was forced. Doximity released a free scribe. Basic transcription is commoditizing, so every vendor now has to differentiate after the transcript.<sup>[19](#fn19)</sup> Nobody can charge for the note anymore. They have to charge for whatever else can be pulled out of the conversation once it's written down.
+They also explain why the pivot was forced. Doximity released a free scribe. Basic transcription is commoditizing, so every vendor now has to differentiate after the transcript.<sup>[19](#fn19)</sup> It's harder to charge for the note, and so they have to charge for whatever else can be pulled out of the conversation once it's written down.
 
-The first thing that can be pulled out is billing, and it's been measured. Riverside Health saw an 11 percent rise in physician wRVUs and a 14 percent increase in documented HCC diagnoses per encounter. Northwestern Medicine clinicians using DAX billed more high-level E/M visits on average. A 2024 Texas Oncology study found documented diagnoses rose from 3.0 to 4.1 per encounter.<sup>[19](#fn19)</sup> An independent claims analysis of six large systems that had publicly announced adoption found consistent upward redistribution toward the highest E/M codes, with high-intensity new patient coding rising 12 to 20 points and hitting 80 percent at one system.<sup>[20](#fn20)</sup>
+The first thing that can be pulled out is billing, and it's been measured. Riverside Health (not us) saw an 11 percent rise in physician wRVUs and a 14 percent increase in documented HCC diagnoses per encounter. Northwestern Medicine clinicians using DAX billed more high-level E/M visits on average. A 2024 Texas Oncology study found documented diagnoses rose from 3.0 to 4.1 per encounter.<sup>[19](#fn19)</sup> An independent claims analysis of six large systems that had publicly announced adoption found consistent upward redistribution toward the highest E/M codes, with high-intensity new patient coding rising 12 to 20 points and hitting 80 percent at one system.<sup>[20](#fn20)</sup>
 
-Then in January 2026, UCSF published the arithmetic.
+Then in January this year (2026), UCSF published their arithmetic.
 
 Holmgren and colleagues looked at nearly 1.2 million ambulatory encounters across 1,565 physicians, 698 of whom adopted a scribe. Adopters generated 1.81 more RVUs per week than non-adopters, a 5.8 percent increase, worth roughly $3,044 in additional annual revenue per physician at 2025 Medicare rates, along with 0.80 more encounters per week. Denials did not rise.<sup>[21](#fn21)</sup> The lead author's own framing is that these are initial findings that AI scribes change how physicians code and bill, and that the open question is whether the gain comes from additional services delivered or from changes in coding practice.<sup>[21](#fn21)</sup>
 
-That's the generous number, incidentally. A five-system difference-in-differences study in *JAMA* found adoption associated with about $167 a month in marginal E/M revenue, roughly $2,004 a year, which the authors themselves call a conservative lower bound.<sup>[28](#fn28)</sup>
+That's the generous number, incidentally. A five-system difference-in-differences study in *JAMA* found adoption associated with about $167 a month in marginal E/M revenue, roughly $2,004 a year, which the authors call a conservative lower bound.<sup>[28](#fn28)</sup>
 
-Against that, the price. The accompanying JAMA Network Open commentary puts subscription fees at $200 to $600 per clinician per month.<sup>[22](#fn22)</sup> Six hundred a month is $7,200 a year. Four hundred is $4,800. Three hundred is $3,600. The measured gain is $3,044 at one site and about $2,004 across five.
+Against all that, the price. A JAMA Network Open commentary puts subscription fees at $200 to $600 per clinician per month.<sup>[22](#fn22)</sup> Six hundred a month is $7,200 a year. Four hundred is $4,800. Three hundred is $3,600. The measured gain is $3,044 at one site and about $2,004 across five.
 
-The commentary says these incremental gains could collectively offset subscription fees.<sup>[22](#fn22)</sup> Could. At the bottom of the price range, using the friendliest study, maybe. Anywhere else it doesn't clear.
+The commentary says these incremental gains could collectively offset subscription fees.<sup>[22](#fn22)</sup> Could. At the bottom of the price range, using the friendliest study, maybe. Anywhere else, and it doesn't clear. Basic maths.
 
-The other evaluations agree from the opposite direction. The financial impact is unclear, ambient scribes are not productivity tools yet, and several studies found no significant gain in documentation time, productivity, or revenue per visit at all.<sup>[17](#fn17),[29](#fn29)</sup>
+The other evaluations agree too, but from a different angle. The financial impact is unclear, ambient scribes are not productivity tools yet, and several studies found no significant gain in documentation time, productivity, or revenue per visit at all.<sup>[17](#fn17),[29](#fn29)</sup>
 
-And the counterparty has already moved. Starting 01OCT2025, Cigna began automatically reducing many level 4 and 5 E/M claims by one level unless the documentation clearly supports the higher complexity, and Aetna Better Health has applied similar reviews.<sup>[19](#fn19)</sup> The JAMA commentary reaches for the same phrase the npj authors did, independently, calling it a possible coding arms race.<sup>[22](#fn22)</sup> Medicare Advantage already has coding intensity adjustments for exactly this reason, built after in-home assessments and chart reviews were shown to raise risk scores.<sup>[19](#fn19)</sup>
+And the counterparty has already moved. Starting in October 2025, Cigna began automatically reducing many level 4 and 5 E/M claims by one level unless the documentation clearly supports the higher complexity, and Aetna Better Health has applied similar reviews.<sup>[19](#fn19)</sup> The JAMA commentary reaches for the same phrase the npj authors did, calling it a possible coding "arms race".<sup>[22](#fn22)</sup> Medicare Advantage already has coding intensity adjustments for exactly this reason, built after in-home assessments and chart reviews were shown to raise risk scores.<sup>[19](#fn19)</sup>
 
 So the coding money is a step change, not a growth curve, and it gets competed away and audited away. The npj authors say as much: commoditization and payer countermeasures will erode those advantages in time, and late adopters may miss the temporary upside while practicing under a lower baseline set after everyone else's gains have been priced in.<sup>[19](#fn19)</sup>
 
-A billion dollars in one year is not underwritten by an effect worth two or three thousand dollars a physician that gets clawed back by 2028. Read what the same brief says the winners will profit from: subscription revenue and accumulated data assets.<sup>[19](#fn19)</sup>
+But zoom out. We all know that a billion dollars in one year is not underwritten by an effect worth two or three thousand dollars a physician that gets clawed back by 2028. Read what the same brief says the winners will profit from: subscription revenue and *accumulated data assets*. What might those be?<sup>[19](#fn19)</sup>
 
 ## Who pays the difference
 
 The day Holmgren appeared, *JAMA Health Forum* ran a companion piece on what happens when the money doesn't add up. Nong and Neprash note that the ubiquity of billing tools inside today's scribe offerings suggests these products may actually increase health care spending, that many vendors purport to enable higher-intensity billing through more complete documentation, and that some advertise the ability to maximize the number and severity of diagnoses recorded, yielding higher risk-adjusted payments.<sup>[27](#fn27)</sup>
 
-Then Neprash says the part I'd want every resident to read twice:
+And they say what we all have been thinking:
 
 > Given the cost of ambient scribes ($300-500 per user per month), organizations may pressure clinicians to increase visits in order to recoup costs.<sup>[27](#fn27)</sup>
 
-That's what the check coming due looks like on the ground. Not a robot. A director of operations with a spreadsheet showing what your license costs the department, and a conversation about your template.
+That's what the check coming due looks like on the ground. Not a robot. Not PAs and NPs everywhere. It's a director of operations with a spreadsheet showing what your license costs the department, and a conversation about your template.
 
-You gave up the recording to get your evening back, and the subscription that bought the evening is the reason your schedule gets tighter.
+You allwed them to record sacred moments to get your evening back, and the subscription that bought the evening is the same reason your sacred moments will be cut shorter.
 
-She names the other party who pays, too. Erosion of patient trust, as surprise bills make care less affordable, for instance if scribes convert preventive visits into problem-based visits, which the patient may not learn about until the bill arrives.<sup>[27](#fn27)</sup> The tool hears the part of the wellness visit where she mentions her knee. The visit reclassifies. She gets charged for a conversation she thought was free. Nobody committed fraud; the documentation just got more complete.
-
-Her own summary is that the horse is already out of the barn, that what policymakers need is evidence about what happens to spending after adoption and whether the increases represent high-value care or upcoding or something in between, and that payers have tools to fight upcoding but those tools are politically unpopular among clinicians, and the alternative is passing the increases through to consumers and taxpayers.<sup>[27](#fn27)</sup>
+Neprash also points out the erosion of patient trust that will happen if surprise bills make care less affordable, for instance if scribes convert preventive visits into problem-based visits, which the patient may not learn about until the bill arrives. This for sure is a stretch, but not by much.<sup>[27](#fn27)</sup> 
+Her summary is that the horse is already out of the barn, that what policymakers need is evidence about what happens to spending after adoption and whether the increases represent high-value care or upcoding or something in between, and that payers have tools to fight upcoding but those tools are politically unpopular among clinicians, and the alternative is passing the increases through to consumers and taxpayers.<sup>[27](#fn27)</sup>
 
 ## It's 2005 all over again
 
-Not robots. Nobody loses a job. No black-box uprising, no algorithm firing anyone. The mechanism is duller than that, and it's already in the receipts above.
+A human scribe hears and forgets. A recording is a durable object, and its deletion is a promise. Retention windows are contract terms. Contract terms get renegotiated at renewal.
 
-The tool creates an artifact that did not exist before.
+A legal analysis in *NEJM AI* lays it out: ambient recordings fall under state wiretapping and eavesdropping statutes independent of HIPAA, deidentified recordings still carry identifiable voice biomarkers, and retention and deletion are governed by *vendor contract terms*.<sup>[30](#fn30)</sup> Not by law. HIPAA sets no retention period. State law is only a floor. Retention and deletion are governed by the contract your employer signed, which you have not read, and which will be renegotiated at renewal.
 
-A human scribe hears and forgets. A recording is a durable object, and its deletion is a promise, and a promise is a configuration value somebody can change on a Tuesday without a breach and without anyone behaving badly. Retention windows are contract terms. Contract terms get renegotiated at renewal.
-
-That isn't my inference. A legal analysis in *NEJM AI* lays out the same structure: ambient recordings fall under state wiretapping and eavesdropping statutes independent of HIPAA, deidentified recordings still carry identifiable voice biomarkers, and retention and deletion are governed by vendor contract terms.<sup>[30](#fn30)</sup> Not by law — HIPAA sets no retention period, and state law only a floor. By the contract your employer signed, which you have not read, and which renews.
-
-It isn't the same object as your note, either. Your note is curated. You chose every word, you left things out on purpose, and she knows a note is being written. The audio is uncurated. It has what she said before she thought better of it, the tremor, the husband in the room, the thing you deliberately kept out of the chart because you judged it didn't belong there. That was the one part of the visit that could never be reconstructed from the record.
+The recording isn't the same object as your note, either. Your note is curated. You chose every word, you left things out on purpose, and the patient knows a note is being written. The audio is uncurated. It has what the patient said before she thought better of it, the tremor, the things you deliberately kept out of the chart because you judged it didn't belong there--because they didn't. That was the one part of the visit that could never be reconstructed from the record.
 
 Which brings me to the thing I actually wanted to say, and I've taken eight hundred words to get here.
 
-The conversation was never protected by principle. It was protected by the fact that nobody had a copy.
+The conversation was never protected by principle.
 
-That's the entire history of medical measurement. We measure what leaves a trace. Promoting Interoperability is a quarter of your MIPS score today, not because anyone decided that interoperability is the essence of doctoring, but because the EHR produced a countable trace, and the appetite for scoring physicians is older than any of us. Measurement stopped at the note because the note was where the trace stopped.
+The conversation has been protected by the fact that nobody had a copy.
 
-## Where this goes
+The entire history of medical measurement is that we measure what leaves a trace. Promoting Interoperability is a quarter of your MIPS score today, not because anyone decided that interoperability is the essence of doctoring, but because the EHR produced a countable trace, and the appetite for scoring physicians is older than any of us. Measurement stopped at the note because the note was where the trace stopped and now we have a way to measure that too. Heck, I can run the tools at home on my PC from 2012. I just need the record.
 
-The machinery for nudging is old. Health systems have used EHR best practice advisories for years to prompt clinicians to add diagnoses for risk adjustment.<sup>[19](#fn19)</sup> The only new thing is that the prompt can be based on what you said out loud instead of what you typed.
+## It's 2005 all over again
 
 The payment plumbing is being laid now. The AMA's Digital Medicine Payment Advisory Group is advising on coding and payment pathways for AI, including ambient scribes, and how their cost should be classified within the practice expense component of the RVU.<sup>[19](#fn19)</sup>
 
 And the federal rung is forming in public. CMS's Health Tech Ecosystem pledge is voluntary and has drawn more than 600 organizations.<sup>[23](#fn23)</sup> Industry has told CMS what it needs next, which is that CMS will need to invest in and include in their upcoming fee schedules incentives that motivate provider behavior, provider utilization being the critical last mile.<sup>[24](#fn24)</sup>
 
-Then the government's own words. From the CY2027 Physician Fee Schedule proposed rule, published in the Federal Register on 16JUL2026, in the request for information titled "Redesigning Primary Care To Make America Healthy Again":
+Here it is in the government's own words, from the CY2027 Physician Fee Schedule proposed rule, published in the Federal Register on 16JUL2026, in the request for information titled "Redesigning Primary Care To Make America Healthy Again":
 
 > …clinician-facing AI tools that are currently in widespread use are more focused on administrative burden reduction and clinical decision-support. For example, tools focused on reducing clinician documentation burden (e.g. AI scribes), have perhaps been the most widely taken up by clinicians, with an estimated 25% penetration among all US physicians. Early system-level evaluations demonstrate generally increased productivity among adopters along with decreases in perceived documentation burden.<sup>[25](#fn25)</sup>
 
@@ -148,9 +139,9 @@ CMS goes on to ask how these tools have affected the resource costs of primary c
 
 Twenty-five percent penetration, an agency citing productivity data, a question about how to pay for it. And the citation CMS uses for the productivity claim is Holmgren, whose lead author says the open question is whether the gain is services or coding.<sup>[21](#fn21)</sup> An agency building payment policy on a number the number's own authors declined to stand behind. We have seen that before, in September 2005.
 
-Comments close 14SEP2026.
+Comments close 14SEP2026. Ironic? Prophetic? Astrologic? Fatalistic? Numerologic? No, just the US legal cycle. But it's still happening.
 
-The scoring vehicle is in the same rule:
+And guess what? The scoring vehicle is in there too:
 
 > …we are proposing the traditional MIPS reporting option would be sunset and that MVPs will be the only reporting option for MIPS beginning with the CY 2029 performance period/2031 MIPS payment year.<sup>[26](#fn26)</sup>
 
@@ -158,11 +149,11 @@ Alongside it, the continued push toward FHIR-based digital quality measures.<sup
 
 So here's the prediction, and it's a modest one.
 
-It won't start with anything cruel. It'll start with something nobody can argue against, the way e-prescribing was in 2009, the way vaccine counseling would be if you were designing it today. Free, then default, then required for efficiency, then reported, then scored. Somewhere in there a vendor sells a conversational quality metric, because differentiation has to come from somewhere once the transcript itself is worthless. Somewhere after that a health system discovers it can compare you to the man in the next room, and it will not be able to stop itself, because it has never once been able to stop itself.
+It won't be scary or distressing. It will start with something nobody can argue against, the way e-prescribing was in 2009, the way vaccine counseling would be if you were designing it today. Free, then default, then required for efficiency, then reported, then scored. Somewhere in there a vendor sells a conversational quality metric, because differentiation has to come from somewhere once the transcript itself is worthless. Remember those "accumulated data assets"? Somewhere after that a health system discovers it can compare you to the man in the next room, and it will not be able to stop itself, because it has never once been able to stop itself.
 
-None of that requires anyone to sell a recording, break HIPAA, or intend harm. It requires only that a copy exists, and that the people who already score us keep doing the thing they have done every time a copy has existed.
+None of that requires anyone to sell a recording, break HIPAA, or intend harm. It in fact requires people to fear harm so much that they will accept a little relief in the moment. The machine requires only that a copy exists, and that the people who already score us keep doing the thing they have done every time a copy has existed.
 
-The exam room was the last part of this job that left no trace. That wasn't sentiment. It was the working condition that made people tell us the truth.
+The exam room was the last part of this profession that left no trace. That wasn't sentiment. It was the working condition that made people tell us the truth.
 
 We're being offered our evenings back for it. It's a good offer. In 2005 we took a better one.
 
