@@ -2,6 +2,14 @@
 # These stay local; open-access and public-domain sources are committed.
 archive/paywalled_screenshots/
 
+# Photo originals and RawTherapee sidecars. Only the cropped, redacted
+# derivative in assets/ is published — keep the unredacted sources local.
+PICT0574.jpg
+robbiemed2005.png
+robbiemed2005_crop.png
+*.pp3
+*.out.pp3
+
 __pycache__/
 *.pyc
 .ppq_key

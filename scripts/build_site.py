@@ -151,12 +151,17 @@ def receipt_html(r, copies):
     return "".join(parts)
 
 
+# A plate whose icon is this sentinel renders as a full-bleed photograph
+# instead of an icon on a colour field.
+PHOTO = ("photo", "assets/robbiemed-2005.jpg", "The author, 2005")
+
 # One plate per section: a nuoveXT2 desktop icon centred on a solid field.
 # Keyed by section heading; the empty key is the untitled opening.
 # Icons are nuoveXT2 by Alexandre Moore, LGPL-3+ — see assets/icons/.
 PLATES = {
     "": ("#8e8b83", "01-folder.png"),
-    "The promise": ("#6b7f99", "02-document.png"),
+    # The promise runs on a photo instead of an icon: the author in 2005.
+    "The promise": ("#6b7f99", PHOTO),
     "The staircase": ("#7f7a92", "03-up.png"),
     "The bill": ("#9a6f5c", "04-clock.png"),
     "5:40": ("#6f8a72", "05-home.png"),
@@ -171,6 +176,13 @@ def plate_html(heading):
     if heading not in PLATES:
         return ""
     colour, icon = PLATES[heading]
+    if isinstance(icon, tuple) and icon[0] == "photo":
+        _, src, alt = icon
+        return (
+            f'<div class="plate plate-photo" style="background:{colour}">'
+            f'<img src="{html.escape(src)}" alt="{html.escape(alt)}" loading="lazy">'
+            "</div>"
+        )
     return (
         f'<div class="plate" style="background:{colour}">'
         f'<img src="assets/icons/{icon}" width="128" height="128" alt="">'
@@ -290,6 +302,9 @@ h2{
 }
 .plate:first-child{margin-top:0}
 .plate img{width:128px; height:128px; display:block}
+/* the photo plate sizes to the image, not the icon band */
+.plate-photo{height:auto}
+.plate-photo img{width:100%; height:auto; max-width:100%}
 /* the plate is the section break, so the heading drops its rule */
 .plate + h2{margin-top:1.2rem; padding-top:0; border-top:0}
 p{margin:0 0 1.15rem}
