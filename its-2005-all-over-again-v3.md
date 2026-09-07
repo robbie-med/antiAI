@@ -1,14 +1,14 @@
 # It's 2005 All Over Again
 
-Nobody under forty remembers what we were trying to escape.
+Nobody under forty really remembers what we were trying to escape.
 
 The chart was a manila folder in a wall of manila folders, and if it was not in the wall it was in a stack on somebody's desk, and if it was not there it was gone. You saw a patient without her chart because her chart was at the specialist's office, or in medical records, or in a box in a storage unit off the highway. You wrote your note by hand and the consultant could not read it. You called the hospital at two in the morning for a potassium and waited on hold while somebody walked to a different floor. A woman came in on four medications and could name two of them, and there was no way on earth to find the other two before Monday. Somebody's allergy was written on a card that fell out of the folder in 1997.
 
-People died in those gaps. Not dramatically. They died of the second dose nobody knew about, of the lab that was drawn and never seen, of the sixty-year-old who told three doctors the same story because none of the three could read what the other two had written.
+People died in those gaps. Not dramatically. They died of a second dose nobody knew about, of a lab that was drawn and never seen, of an opioid overdose because you couldn’t see the other 5 scripts they’d filled across town.
 
-We wanted out. Anyone who tells you the paper era was better is remembering a chart rack they never had to search at four in the morning.
+We wanted an escape. 
 
-So when someone said the record could be everywhere at once, legible, searchable, safe, nobody had to sell us. We were already begging.
+And when someone said the record could be everywhere all at once, and legible, and searchable, _and_ safe, nobody had to sell us. We were already begging.
 
 ## The promise
 
