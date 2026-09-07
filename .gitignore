@@ -1,0 +1,8 @@
+# Paywalled article captures — research-use only, not redistributable.
+# These stay local; open-access and public-domain sources are committed.
+archive/paywalled_screenshots/
+
+__pycache__/
+*.pyc
+.ppq_key
+.env
