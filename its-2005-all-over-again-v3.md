@@ -18,8 +18,10 @@ The second paragraph of the press release was boring: RAND said there was not ye
 
 And of course, that model became policy.
 
-The objection wasn't entirely missing. Actually, it was in the same issue of the same journal. Himmelstein and Woolhandler called it hope and hype.<sup>[3](#fn3)</sup> Goodman's title was the whole argument in eight words: savings in electronic medical record systems, do it for the quality.<sup>[4](#fn4)</sup> 
-The staircase
+The objection wasn't entirely missing. Actually, it was in the same issue of the same journal. Himmelstein and Woolhandler called it hope and hype.<sup>[3](#fn3)</sup> Goodman's title was the whole argument in eight words: savings in electronic medical record systems, do it for the quality.<sup>[4](#fn4)</sup>
+
+## The staircase
+
 **One: they paid us.** HITECH passed inside the 2009 stimulus.<sup>[5](#fn5)</sup> Not a mandate. A check. Everyone loves a good government check. Medicare eligible professionals could receive up to $44,000; the Medicaid track went to $63,750.<sup>[6](#fn6)</sup> Why force folks onto a computer when you can pay them to want one?
 
 **Two: oh btw the money shrank if you waited.** Under Medicare, the maximum fell with the start year: $44,000 for anyone starting in 2011 or 2012, down to $24,000 for a 2014 start.<sup>[6](#fn6)</sup> Medicaid kept the full $63,750 to its 2016 deadline.
@@ -106,7 +108,8 @@ That's what the check coming due looks like on the ground. Not a robot. Not PAs 
 
 You allwed them to record sacred moments to get your evening back, and the subscription that bought the evening is the same reason your sacred moments will be cut shorter.
 
-Neprash also points out the erosion of patient trust that will happen if surprise bills make care less affordable, for instance if scribes convert preventive visits into problem-based visits, which the patient may not learn about until the bill arrives. This for sure is a stretch, but not by much.<sup>[27](#fn27)</sup> 
+Neprash also points out the erosion of patient trust that will happen if surprise bills make care less affordable, for instance if scribes convert preventive visits into problem-based visits, which the patient may not learn about until the bill arrives. This for sure is a stretch, but not by much.<sup>[27](#fn27)</sup>
+
 Her summary is that the horse is already out of the barn, that what policymakers need is evidence about what happens to spending after adoption and whether the increases represent high-value care or upcoding or something in between, and that payers have tools to fight upcoding but those tools are politically unpopular among clinicians, and the alternative is passing the increases through to consumers and taxpayers.<sup>[27](#fn27)</sup>
 
 ## It's 2005 all over again

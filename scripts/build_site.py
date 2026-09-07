@@ -239,9 +239,14 @@ def build_body(md_text):
         re.sub(r"<[^>]+>", "", h).strip()
         for h in re.findall(r"<h2[^>]*>(.*?)</h2>", out, flags=re.S)
     ]
+    seen = set()
     for h in unplated:
-        if html.unescape(h) not in PLATES:
+        h = html.unescape(h)
+        if h not in PLATES:
             print(f"  WARNING: no plate defined for section {h!r}")
+        if h in seen:
+            print(f"  WARNING: duplicate section heading {h!r} — both get the same plate")
+        seen.add(h)
     return out
 
 

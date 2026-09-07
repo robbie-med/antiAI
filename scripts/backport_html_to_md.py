@@ -55,10 +55,14 @@ def inline(s):
 def html_to_md_body(doc):
     art = re.search(r"<article>(.*?)</article>", doc, re.S).group(1)
     blocks, pos = [], 0
+    # A <p> ends at </p> OR at the next block-level opener. Hand-edited HTML
+    # loses closing tags, and a plain (.*?)</p> then runs past the gap and
+    # swallows whatever follows — headings included, silently.
     pat = re.compile(
         r"<h2[^>]*>(?P<h2>.*?)</h2>"
         r"|<blockquote>(?P<bq>.*?)</blockquote>"
-        r"|<p>(?P<p>.*?)</p>"
+        r"|<p>(?P<p>.*?)(?:</p>|(?=<p[ >])|(?=<h2)|(?=<blockquote)"
+        r"|(?=<div\s+class=\"plate)|(?=<hr))"
         r"|<hr\s*/?>(?P<hr>)",
         re.S,
     )
