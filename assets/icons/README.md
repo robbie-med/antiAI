@@ -1,6 +1,13 @@
 # Icons
 
-Section icons are from the **nuoveXT2** icon theme (nuoveXT.2.2).
+Both source themes are LGPL-3+; the full licence text is in [LGPL-3.txt](LGPL-3.txt).
+
+`10-video.png` is from the **oxygen** icon theme (`oxygen-icons5`),
+copyright 2007 David Miller and the Oxygen team — `mimetypes/video-x-generic.png`,
+unmodified. nuoveXT2 has no film or video icon that doesn't also carry a music
+note, which would have collided with the audio icon one section earlier.
+
+All other section icons are from the **nuoveXT2** icon theme (nuoveXT.2.2).
 
 - Copyright 2007 Alexandre Moore <http://sa-ki.deviantart.com/>
 - Copyright 2008-2009 Hong Jen Yee (PCMan)

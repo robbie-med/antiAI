@@ -16,7 +16,7 @@ That's me, September 2005. Same month that RAND published a number: effective im
 
 The second paragraph of the press release was boring: RAND said there was not yet enough published evidence to reach conclusions about the relative costs and benefits of health IT, and that this was why the team had built computer simulation models to fill the gap.<sup>[2](#fn2)</sup>
 
-And of course, that model became policy.
+And of course, a model became policy.
 
 The objection wasn't entirely missing. Actually, it was in the same issue of the same journal. Himmelstein and Woolhandler called it hope and hype.<sup>[3](#fn3)</sup> Goodman's title was the whole argument in eight words: savings in electronic medical record systems, do it for the quality.<sup>[4](#fn4)</sup>
 
@@ -26,7 +26,7 @@ The objection wasn't entirely missing. Actually, it was in the same issue of the
 
 **Two: oh btw the money shrank if you waited.** Under Medicare, the maximum fell with the start year: $44,000 for anyone starting in 2011 or 2012, down to $24,000 for a 2014 start.<sup>[6](#fn6)</sup> Medicaid kept the full $63,750 to its 2016 deadline.
 
-**Three: same law, opposite sign.** Section 1848(a)(7) of the Social Security Act sets the fee schedule for a physician who is not a meaningful EHR user at 99 percent for 2015, 98 percent for 2016, and 97 percent for 2017 and 2018, and retains the authority to cut another point per year if fewer than three quarters of us comply.<sup>[7](#fn7)</sup> Six years from "here is $44,000" to "we are keeping three percent."
+**Three: same law, new inverse sign.** Section 1848(a)(7) of the Social Security Act sets the fee schedule for a physician who is not a meaningful EHR user at 99 percent for 2015, 98 percent for 2016, and 97 percent for 2017 and 2018, and retains the authority to cut another point per year if fewer than three quarters of us comply.<sup>[7](#fn7)</sup> Six years from "here is $44,000" to "we are keeping three percent."
 
 Nothing new was passed as the penalty and the incentive were written into the same 2009 statute. We'd only read the first half (if we'd read anything).
 
@@ -72,7 +72,7 @@ By July of last year (2025), ambient scribe companies had announced close to a b
 
 Nobody raises a billion dollars to save you and me an hour a night. That money comes back out somewhere. Fortunately, someone wrote down where.
 
-Ambience's July funding announcement described the platform as the leading ambient AI system for documentation, coding, and clinical documentation integrity, highlighting how it drives revenue-cycle performance. The authors of a policy brief in *npj Digital Medicine*, December 2025, call this a clear pivot from earlier messaging about saving doctors time, and note that the product is now positioned as both a burnout remedy and a revenue engine, which raises the question of who ultimately benefits.<sup>[19](#fn19)</sup> Note that nobody's even thought of the patient.
+Ambience's July funding announcement described the platform as the leading ambient AI system for documentation, coding, and clinical documentation integrity, highlighting how it drives revenue-cycle performance. The authors of a policy brief in *npj Digital Medicine*, December 2025, call this a clear pivot from earlier messaging about saving doctors time, and note that the product is now positioned as both a burnout remedy and a revenue engine, which raises the question of who ultimately benefits.<sup>[19](#fn19)</sup>
 
 They also explain why the pivot was forced. Doximity released a free scribe. Basic transcription is commoditizing, so every vendor now has to differentiate after the transcript.<sup>[19](#fn19)</sup> It's harder to charge for the note, and so they have to charge for whatever else can be pulled out of the conversation once it's written down.
 
@@ -112,7 +112,7 @@ Neprash also points out the erosion of patient trust that will happen if surpris
 
 Her summary is that the horse is already out of the barn, that what policymakers need is evidence about what happens to spending after adoption and whether the increases represent high-value care or upcoding or something in between, and that payers have tools to fight upcoding but those tools are politically unpopular among clinicians, and the alternative is passing the increases through to consumers and taxpayers.<sup>[27](#fn27)</sup>
 
-## It's 2005 all over again
+## The record at stake
 
 A human scribe hears and forgets. A recording is a durable object, and its deletion is a promise. Retention windows are contract terms. Contract terms get renegotiated at renewal.
 
@@ -152,13 +152,13 @@ Alongside it, the continued push toward FHIR-based digital quality measures.<sup
 
 So here's the prediction, and it's a modest one.
 
-It won't be scary or distressing. It will start with something nobody can argue against, the way e-prescribing was in 2009, the way vaccine counseling would be if you were designing it today. Free, then default, then required for efficiency, then reported, then scored. Somewhere in there a vendor sells a conversational quality metric, because differentiation has to come from somewhere once the transcript itself is worthless. Remember those "accumulated data assets"? Somewhere after that a health system discovers it can compare you to the man in the next room, and it will not be able to stop itself, because it has never once been able to stop itself.
+It won't be scary or distressing. It will start with something nobody can argue against, the way e-prescribing was in 2009. Free, then default, then required for efficiency, then reported, then scored. Somewhere in there a vendor sells a conversational quality metric, because differentiation has to come from somewhere once the transcript itself is worthless. Remember those "accumulated data assets"? Somewhere after that a health system discovers it can compare you to the man in the next room, and it will not be able to stop itself, because it has never once been able to stop itself, and that's an undisputable fact.
 
-None of that requires anyone to sell a recording, break HIPAA, or intend harm. It in fact requires people to fear harm so much that they will accept a little relief in the moment. The machine requires only that a copy exists, and that the people who already score us keep doing the thing they have done every time a copy has existed.
+None of that requires anyone to sell a recording, to break HIPAA, or to intend harm. It in fact requires people to fear harm so much that they will accept a little relief in the moment. This machine requires only that a record exists, and that the people who already score us keep doing the thing they have done every time a record has existed.
 
-The exam room was the last part of this profession that left no trace. That wasn't sentiment. It was the working condition that made people tell us the truth.
+The exam room was the last part of this profession that left no trace, and that was the working condition that made people tell us the truth (usually). We're being offered our evenings back for it, and it's a good offer. In 2005 we took a better one.
 
-We're being offered our evenings back for it. It's a good offer. In 2005 we took a better one.
+So next time you say "I'm using my phone to take notes for us today" take a pause. And think to yourself--or tell the patient if you're brave enough--"Our sacred conversation is a queryable data asset, and I am feeding it to the Machine today."
 
 S.D.G.
 
