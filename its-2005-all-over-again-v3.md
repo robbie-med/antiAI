@@ -120,11 +120,11 @@ A legal analysis in *NEJM AI* lays it out: ambient recordings fall under state w
 
 The recording isn't the same object as your note, either. Your note is curated. You chose every word, you left things out on purpose, and the patient knows a note is being written. The audio is uncurated. It has what the patient said before she thought better of it, the tremor, the things you deliberately kept out of the chart because you judged it didn't belong there--because they didn't. That was the one part of the visit that could never be reconstructed from the record.
 
-Which brings me to the thing I actually wanted to say, and I've taken eight hundred words to get here.
+Which brings us to the main point:
 
 The conversation was never protected by principle.
 
-The conversation has been protected by the fact that nobody had a copy.
+The conversation was protected by the fact that nobody had a copy.
 
 The entire history of medical measurement is that we measure what leaves a trace. Promoting Interoperability is a quarter of your MIPS score today, not because anyone decided that interoperability is the essence of doctoring, but because the EHR produced a countable trace, and the appetite for scoring physicians is older than any of us. Measurement stopped at the note because the note was where the trace stopped and now we have a way to measure that too. Heck, I can run the tools at home on my PC from 2012. I just need the record.
 

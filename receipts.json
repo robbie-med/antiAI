@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "source": "It's 2005 All Over Again (v2, final)",
+    "source": "It's 2005 All Over Again (v3)",
     "domain": "antiAI.robbiemed.org",
     "count": 30,
-    "notes": "Citations as written in the essay's Notes section. DOIs/PMIDs/verbatim quotes verified against primary sources 2026-09-06."
+    "notes": "Citations as written in the essay's Notes section. DOIs/PMIDs/verbatim quotes verified against primary sources 2026-09-06; ref 29 realigned with the essay note 2026-09-08."
   },
   "receipts": [
     {
@@ -223,14 +223,15 @@
     },
     {
       "n": 29,
-      "citation": "Elias P, Black KC, Chandak P, et al. \"The Moment AI Arrived in the Clinic: Insights from the SAIL 2025 Year in Review.\" *NEJM AI* 2025;2(11). doi:10.1056/aip2500788 (hallucination risk; mixed productivity findings). Yadav GS, Longhurst CA. \"Will AI Make the Electronic Health Record More Efficient for Clinicians?\" *NEJM AI* 2025;2(3). doi:10.1056/aie2500020. Atrium Health analysis (112 primary care physicians) found no significant gains in documentation time or productivity. Burnout evidence base is concentrated in voluntary early adopters: Olson KD, Meeker D, Troup M, et al., *JAMA Netw Open* 2025;8(10):e2534976; Shah SJ, Devon-Sand A, Ma SP, et al., *JAMIA* 2025;32(2):375-80.",
+      "citation": "Lukac P, et al. \"Ambient AI Scribes in Clinical Practice — A Randomized Trial.\" *NEJM AI* 2025. doi:10.1056/AIoa2501000 (238 physicians, three arms; Nabla −9.5% time-in-note, p=.02; DAX not significant; physicians reported occasional inaccuracies). Elias P, Black KC, Chandak P, et al. \"The Moment AI Arrived in the Clinic: Insights from the SAIL 2025 Year in Review.\" *NEJM AI* 2025;2(11). doi:10.1056/aip2500788 (hallucination risk; mixed productivity findings). Yadav GS, Longhurst CA. \"Will AI Make the Electronic Health Record More Efficient for Clinicians?\" *NEJM AI* 2025;2(3). doi:10.1056/aie2500020. Atrium Health analysis (112 primary care physicians) found no significant gains in documentation time or productivity. Burnout evidence base is concentrated in voluntary early adopters: Olson KD, Meeker D, Troup M, et al., *JAMA Netw Open* 2025;8(10):e2534976; Shah SJ, Devon-Sand A, Ma SP, et al., *JAMIA* 2025;32(2):375-80.",
       "type": "journal",
-      "proves": "Hallucination risk + null/mixed productivity findings (Elias; Yadav; Olson; Shah)",
+      "proves": "The one randomized trial (Lukac: 238 physicians, Nabla -9.5% time-in-note, DAX not significant, errors still caught); plus hallucination risk and null/mixed productivity findings",
       "urls": [
         "https://doi.org/10.1056/aip2500788",
         "https://doi.org/10.1056/aie2500020"
       ],
-      "note": "Multi-citation: Elias NEJM AI 2025;2(11); Yadav/Longhurst NEJM AI 2025;2(3); Olson JAMA Netw Open 2025;8(10):e2534976; Shah JAMIA 2025;32(2):375-80"
+      "note": "Multi-citation: Elias NEJM AI 2025;2(11); Yadav/Longhurst NEJM AI 2025;2(3); Olson JAMA Netw Open 2025;8(10):e2534976; Shah JAMIA 2025;32(2):375-80",
+      "doi": "10.1056/AIoa2501000"
     },
     {
       "n": 30,
