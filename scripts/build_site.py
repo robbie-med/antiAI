@@ -167,10 +167,10 @@ PLATES = {
     "5:40": ("#6f8a72", "05-home.png"),
     "The check that has to clear": ("#8a7a4f", "06-warning.png"),
     "Who pays the difference": ("#9c6f72", "07-users.png"),
-    # The recording itself keeps the audio icon; the closing section gets film,
-    # for playback / replay.
+    # The recording itself keeps the audio icon; the closing section gets the
+    # multimedia icon, for playback / replay.
     "The record at stake": ("#5f7078", "08-audio.png"),
-    "It's 2005 all over again": ("#7a6a86", "10-video.png"),
+    "It's 2005 all over again": ("#7a6a86", "10-multimedia.png"),
     "Where this goes": ("#7a6a86", "09-next.png"),
 }
 
@@ -495,8 +495,8 @@ CY 2027 Physician Fee Schedule. Every source inline.">
   verification against primary documents is in
   <a href="sources/VERIFICATION.md">sources/VERIFICATION.md</a>.</p>
   <p>Source and build scripts: <a href="https://github.com/robbie-med/antiAI">github.com/robbie-med/antiAI</a></p>
-  <p>Section icons from the nuoveXT2 theme by Alexandre Moore and the oxygen
-  theme by David Miller, <a href="assets/icons/LGPL-3.txt">LGPL-3+</a>.</p>
+  <p>Section icons from the nuoveXT2 theme by Alexandre Moore,
+  <a href="assets/icons/LGPL-3.txt">LGPL-3+</a>.</p>
 </footer>
 
 </div>

@@ -1,13 +1,6 @@
 # Icons
 
-Both source themes are LGPL-3+; the full licence text is in [LGPL-3.txt](LGPL-3.txt).
-
-`10-video.png` is from the **oxygen** icon theme (`oxygen-icons5`),
-copyright 2007 David Miller and the Oxygen team — `mimetypes/video-x-generic.png`,
-unmodified. nuoveXT2 has no film or video icon that doesn't also carry a music
-note, which would have collided with the audio icon one section earlier.
-
-All other section icons are from the **nuoveXT2** icon theme (nuoveXT.2.2).
+Section icons are from the **nuoveXT2** icon theme (nuoveXT.2.2).
 
 - Copyright 2007 Alexandre Moore <http://sa-ki.deviantart.com/>
 - Copyright 2008-2009 Hong Jen Yee (PCMan)
@@ -27,6 +20,7 @@ Files are unmodified 128x128 PNGs, renamed for ordering:
 | 07-users.png | apps/users.png |
 | 08-audio.png | mimetypes/audio-x-generic.png |
 | 09-next.png | actions/go-next.png |
+| 10-multimedia.png | categories/applications-multimedia.png |
 
 Microsoft's Windows icons are **not** used here and must not be added — they are
 proprietary and this repository is public.
